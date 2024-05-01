@@ -38,3 +38,53 @@
     margin-left: 40px;
     margin-top: 20px;
 }
+
+.five {
+    margin-top: 200px;
+    margin-left: 500px;
+    box-sizing: border-box;
+}
+
+.six {
+    color: rgb(147, 89, 14);
+    font-weight: bolder;
+    font-size: larger;
+    display: flex;
+}
+
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+header, footer {
+    background-color: none;
+    color: white;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-family: Arial, sans-serif;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+}
