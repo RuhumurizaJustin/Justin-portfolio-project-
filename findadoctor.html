@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="doc.css"/>
+    </head>
+
+    <body>
+        <header class="speaker-form">
+            <h1>Want to meet a doctor?</h1>
+            <p><em>Feeling off color, suffer not again! On a click of a button, meet our specialized and professional doctors.</em></p>
+
+            <div class="form-row">
+                <label for="full-name">Name</label>
+                <input id="full-name" name="full-name" type="text"/>
+            </div>
+
+            <div class='form-row'>
+                <label for='email'>Email</label>
+                <input id='email'
+                       name='email'
+                       type='email'
+                       placeholder='joe@example.com'/>
+              </div>
+
+              <div class='form-row'>
+                <label for='urgency'>Urgency</label>
+                <select id='urgency' name='urgency'>
+                  <option value='vu'>Very Urgent</option>
+                  <option value='u'>Urgent</option>
+                  <option value='nu'>Not Urgent</option>
+                </select>
+              </div>
+
+              <div class='form-row'>
+                <label for='problem'>Problem</label>
+                <textarea id='problem' name='problem'></textarea>
+                <div class='instructions'>Please, tell us in few your problem.</div>
+              </div>
+
+              <div class='form-row'>
+                <button>Submit</button>
+              </div>
+        </header>
+    </body>
+</html>
